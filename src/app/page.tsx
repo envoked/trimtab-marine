@@ -16,13 +16,13 @@ export default function Index() {
           >Notes</a>
       </nav>
       <div className="bg-[url('/images/Haven.webp')] w-full h-64 md:h-96 bg-cover bg-center flex items-center bg-blend-multiply bg-neutral-300">
-        <h1 className="md:text-5xl font-medium tracking-tight text-3xl m-10 drop-shadow-lg bg-gradient-to-br from-zinc-100 to-zinc-300 bg-clip-text text-transparent text-center w-full">
+        <h1 className="md:text-5xl font-medium tracking-tight text-3xl m-10 drop-shadow-lg bg-gradient-to-br from-zinc-100 to-zinc-300 bg-clip-text text-transparent text-center w-full font-sans">
           Modern Marine Systems in the Pacific Northwest
         </h1>
       </div>
       <ProductRibbon />
       <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 p-10 text-slate-100">
-        <p className="text-md font-light">
+        <p className="text-md font-mono">
           Trimtab Marine specializes in modern marine system consulting and services. We are mobile, ABYC certified, and priced competitively. No project is too small – but some may be too large.
           To find out more about we&apos;ve been working on, head over to the
           <a

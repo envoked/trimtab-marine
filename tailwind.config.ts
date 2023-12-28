@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "Avenir", 'sans-serif'],
+        sans: ['var(--font-geist-sans)', "Avenir", 'sans-serif'],
         mono: ['var(--font-geist-mono)', "Fira Code", "monospace"],
       },
       backgroundImage: {
