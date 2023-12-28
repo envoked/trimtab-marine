@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="25px" viewBox="0 0 74 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  class="fill-blue-500"
+>
+    <title>TrimTab Logo</title>
+    <defs>
+        <path d="M1.799,0 L1.8,24 L1,24 C0.44771525,24 6.76353751e-17,23.5522847 0,23 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.28443235e-13 1,1.27897692e-13 L1.799,0 Z M7.53356006,1.27897692e-13 C7.96761907,1.27876524e-13 8.35211369,0.280015843 8.4853123,0.693132472 L15.5786349,22.6931325 C15.7481131,23.2187707 15.4593884,23.782274 14.9337502,23.9517522 C14.8345986,23.983721 14.7310605,24 14.6268826,24 L3.36,24 L3.359,0 L7.53356006,1.27897692e-13 Z" id="path-1"></path>
+    </defs>
+    <g id="Trimtab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TrimTab-Logo" transform="translate(0.000000, -0.000000)">
+            <text id="TrimTab-Copy-3" font-family="Raleway-Medium, Raleway" font-size="16" font-weight="400" fill="#000000">
+                <tspan x="16" y="15">TrimTab</tspan>
+            </text>
+            <text id="Modern-Marine" font-family="Raleway-Thin, Raleway" font-size="8" font-weight="300" fill="#000000">
+                <tspan x="18.16" y="24.2">Modern Marine</tspan>
+            </text>
+            <g id="I-Copy">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(1.800000, -0.360000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
