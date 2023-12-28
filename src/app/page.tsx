@@ -24,7 +24,7 @@ export default function Index() {
       <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 p-10 text-slate-100">
         <p className="text-md font-light">
           Trimtab Marine specializes in modern marine system consulting and services. We are mobile, ABYC certified, and priced competitively. No project is too small – but some may be too large.
-          To find out more about we've been working on, head over to the
+          To find out more about we&apos;ve been working on, head over to the
           <a
           className="text-orange-500 ml-1"
           href="https://trimtabmarine.notion.site/Resources-0c1ff1863f394d1898be570259285636"
