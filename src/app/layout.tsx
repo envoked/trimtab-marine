@@ -6,7 +6,8 @@ import './globals.css'
 
 
 export const metadata: Metadata = {
-  title: "TrimTab Modern Marine",
+  title: "TrimTab Modern Marine Systems",
+  description: "TrimTab Marine System services."
 }
 
 export default function RootLayout({
