@@ -15,7 +15,14 @@ export default function Index() {
           rel="noreferrer"
           >Notes</a>
       </nav>
-      <div className="bg-[url('/images/Haven.webp')] w-full h-64 md:h-96 bg-cover bg-center flex items-center bg-blend-multiply bg-neutral-300">
+      <div className="w-full h-64 md:h-96 bg-cover bg-center flex items-center bg-blend-multiply bg-neutral-300 relative">
+        <Image
+          src="/images/haven.webp"
+          title="Haven"
+          fill
+          objectFit="cover"
+          alt=""
+        />
         <h1 className="md:text-5xl font-medium tracking-tight text-3xl m-10 drop-shadow-lg bg-gradient-to-br from-zinc-100 to-zinc-300 bg-clip-text text-transparent text-center w-full font-sans">
           Modern Marine Systems in the Pacific Northwest
         </h1>

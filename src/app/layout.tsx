@@ -6,7 +6,6 @@ import { Analytics } from '@vercel/analytics/react';
 
 import './globals.css'
 
-
 export const metadata: Metadata = {
   title: "TrimTab Modern Marine Systems",
   description: "TrimTab Marine System services."
