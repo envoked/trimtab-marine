@@ -15,7 +15,7 @@ export default function Index() {
           rel="noreferrer"
           >Notes</a>
       </nav>
-      <div className="w-full md:h-[30rem] flex items-center bg-blend-multiply bg-black relative">
+      <div className="w-full h-64 md:h-[32rem] flex items-center bg-black relative">
         <Image
           src="/images/haven-bg.webp"
           title="Haven"
