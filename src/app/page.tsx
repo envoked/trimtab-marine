@@ -17,7 +17,7 @@ export default function Index() {
       </nav>
       <div className="w-full md:h-[30rem] flex items-center bg-blend-multiply bg-black relative">
         <Image
-          src="/images/haven.webp"
+          src="/images/haven-bg.webp"
           title="Haven"
           fill
           style={{objectFit: "cover"}}

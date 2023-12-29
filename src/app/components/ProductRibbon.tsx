@@ -8,7 +8,7 @@ export default function ProductRibbon () {
         <ProductLogo url="/images/vendors/Victron.webp" alt="Victron Energy" />
         <ProductLogo url="/images/vendors/B&G.webp" alt="B&G Electronics" />
         <ProductLogo url="/images/vendors/Wakespeed.webp" alt="Wakespeed" />
-        <ProductLogo url="/images/vendors/Bluesea.webp" alt="BlueSea Systems" />
+        <ProductLogo url="/images/vendors/bluesea-logo.webp" alt="BlueSea Systems" />
         <ProductLogo url="/images/vendors/Webasto.webp" alt="Webasto" />
       </div>
     </div>
