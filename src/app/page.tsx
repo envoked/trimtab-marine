@@ -41,7 +41,7 @@ export default function Index() {
           >Notes</a> section.
         </p>
        <dl className="grid max-w-4xl grid-cols-1 gap-y-4 md:grid-cols-3 mt-10 mx-auto">
-        <dt className="flex flex-col border-r border-slate-500">
+        <dt className="flex flex-col md:border-r border-slate-600">
           <h3 className="text-xl font-light border-b border-slate-600 mb-2 font-mono">Design</h3>
           <ul className="text-md font-extralight font-sans pl-5">
             <li>Systems Consulting</li>
@@ -50,7 +50,7 @@ export default function Index() {
             <li>Upgrades and Refits</li>
           </ul>
         </dt>
-        <dt className="flex flex-col border-r border-slate-600">
+        <dt className="flex flex-col md:border-r border-slate-600">
           <h3 className="px-2 text-xl font-light border-b border-slate-600 mb-2 font-mono">Install</h3>
           <ul className="text-md font-extralight font-sans pl-5">
             <li>Lithium Battery Banks</li>
@@ -86,7 +86,7 @@ export default function Index() {
       </div>
       <footer className="text-slate-100 p-10 bg-gradient-to-b from-slate-800 to-slate-900" id="footer">
         <h1 className="text-3xl font-thin">Contact</h1>
-        <h4 className="text-md mb-5 text-slate-400 font-light">Have a project in mind? Get in touch.</h4>
+        <h4 className="text-md mb-5 text-slate-400 font-light font-sans">Have a project in mind? Get in touch.</h4>
         <p>Adrian Wisernig</p>
         <a href="mailto:ahoy@trimtabmarine.com" className="hover:text-orange-500 transition-colors block">ahoy@trimtabmarine.com</a>
         <a href="tel:509-637-8110" className="hover:text-orange-500 transition-colors block">(509) 637-8110</a>
