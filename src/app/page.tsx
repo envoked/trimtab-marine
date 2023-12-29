@@ -4,7 +4,7 @@ import ProductRibbon from "./components/ProductRibbon"
 export default function Index() {
   return (
     <>
-      <nav className="py-4 px-10 bg-slate-900 relative">
+      <nav className="py-4 px-10 bg-gradient-to-b from-slate-800 to-slate-900 relative">
         <div className="relative h-9 w-24">
           <Image src="/images/logo-white.png" fill alt="Trimtab Marine Services"/>
         </div>
@@ -15,7 +15,7 @@ export default function Index() {
           rel="noreferrer"
           >Notes</a>
       </nav>
-      <div className="w-full h-64 md:h-96 bg-cover bg-center flex items-center bg-blend-multiply bg-neutral-300 relative">
+      <div className="w-full md:h-[30rem] flex items-center bg-blend-multiply bg-neutral-300 relative">
         <Image
           src="/images/haven.webp"
           title="Haven"
@@ -28,7 +28,7 @@ export default function Index() {
         </h1>
       </div>
       <ProductRibbon />
-      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 p-10 text-slate-100">
+      <div className="bg-gradient-to-b from-slate-500 to-slate-600 p-10 text-slate-100">
         <p className="text-md font-sans">
           Trimtab Marine specializes in modern marine system consulting and services. We are mobile, ABYC certified, and priced competitively. No project is too small – but some may be too large.
           To find out more about we&apos;ve been working on, head over to the
@@ -40,9 +40,9 @@ export default function Index() {
           >Notes</a> section.
         </p>
        <dl className="grid max-w-4xl grid-cols-1 gap-y-4 md:grid-cols-3 mt-10 mx-auto">
-        <dt className="flex flex-col border-r border-slate-600">
-          <h3 className="text-xl font-light border-b border-slate-600 mb-2 font-sans">Design</h3>
-          <ul className="text-md font-extralight">
+        <dt className="flex flex-col border-r border-slate-500">
+          <h3 className="text-xl font-light border-b border-slate-600 mb-2 font-mono">Design</h3>
+          <ul className="text-md font-extralight font-sans pl-5">
             <li>Systems Consulting</li>
             <li>Circuit Diagrams</li>
             <li>Load Calculations</li>
@@ -50,8 +50,8 @@ export default function Index() {
           </ul>
         </dt>
         <dt className="flex flex-col border-r border-slate-600">
-          <h3 className="px-2 text-xl font-light border-b border-slate-600 mb-2 font-sans">Install</h3>
-          <ul className="text-md font-extralight">
+          <h3 className="px-2 text-xl font-light border-b border-slate-600 mb-2 font-mono">Install</h3>
+          <ul className="text-md font-extralight font-sans pl-5">
             <li>Lithium Battery Banks</li>
             <li>Inverters/Chargers</li>
             <li>Alternator Upgrades</li>
@@ -61,19 +61,21 @@ export default function Index() {
           </ul>
         </dt>
         <dt className="flex flex-col">
-          <h3 className="px-5 text-xl font-light border-b border-slate-600 mb-2 font-sans">Digital</h3>
-          <ul className="text-md font-extralight px-5">
+          <h3 className="px-5 text-xl font-light border-b border-slate-600 mb-2 font-mono">Digital</h3>
+          <ul className="text-md font-extralight pl-5 font-sans">
             <li>Smart Owners Manuals</li>
             <li>Digital Doubles</li>
           </ul>
         </dt>
        </dl>
       </div>
-      <div className="bg-stone-100 p-10 flex text-slate-800">
+      <div className="bg-neutral-100 p-10 flex text-slate-800">
         <div>
           <h1 className="text-3xl font-thin bg-gradient-to-br from-slate-700 to-slate-800 bg-clip-text mb-5 font-mono">About</h1>
           <div>
-            <img src="/images/Adrian.webp" alt="Adrian Wisernig" className="w-64 rounded-md shadow-md sm:float-right m-2"/>
+            <div className="relative h-44 w-64 sm:float-right m-2">
+              <Image src="/images/Adrian.webp" fill alt="Adrian Wisernig" className="rounded-md shadow-md"/>
+            </div>
             <p className="text-md mr-2 inline font-sans">
               Trimtab Marine was started by software engineer turned marine technician Adrian Wisernig. After a decade of overlanding and sailing experience, he attended the Northwest School of Wooden Boatbuilding and completed the Marine Systems Program in 2023.
               He is currently ABYC Certified in Marine Systems, Electrical, and Diesel.
@@ -81,7 +83,7 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <footer className="text-slate-100 p-10 bg-gradient-to-t from-slate-900 via-slate-800 to-slate-900" id="footer">
+      <footer className="text-slate-100 p-10 bg-gradient-to-b from-slate-800 to-slate-900" id="footer">
         <h1 className="text-3xl font-thin">Contact</h1>
         <h4 className="text-md mb-5 text-slate-400 font-light">Have a project in mind? Get in touch.</h4>
         <p>Adrian Wisernig</p>
