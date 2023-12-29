@@ -15,12 +15,13 @@ export default function Index() {
           rel="noreferrer"
           >Notes</a>
       </nav>
-      <div className="w-full md:h-[30rem] flex items-center bg-blend-multiply bg-neutral-300 relative">
+      <div className="w-full md:h-[30rem] flex items-center bg-blend-multiply bg-black relative">
         <Image
           src="/images/haven.webp"
           title="Haven"
           fill
-          objectFit="cover"
+          style={{objectFit: "cover"}}
+          className="opacity-75"
           alt=""
         />
         <h1 className="md:text-5xl font-medium tracking-tight text-3xl m-10 drop-shadow-lg bg-gradient-to-br from-zinc-100 to-zinc-300 bg-clip-text text-transparent text-center w-full font-sans">
@@ -89,6 +90,10 @@ export default function Index() {
         <p>Adrian Wisernig</p>
         <a href="mailto:ahoy@trimtabmarine.com" className="hover:text-orange-500 transition-colors block">ahoy@trimtabmarine.com</a>
         <a href="tel:509-637-8110" className="hover:text-orange-500 transition-colors block">(509) 637-8110</a>
+        <div className="flex">
+          <Image src="/images/Advisor_Logo.webp" alt="ABYC Certified" width="160" height="80" className="mt-10"/>
+          <Image src="/images/NWSWB.webp" alt="Northwest School of Wooden Boatbuilding Alumni " width="160" height="80" className="mt-10"/>
+        </div>
       </footer>
     </>
   )
